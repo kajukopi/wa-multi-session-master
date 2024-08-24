@@ -1,0 +1,49 @@
+{
+  "name": "wa-multi-session",
+  "version": "3.5.0",
+  "description": "Multi Session Whatsapp Library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "dev": "nodemon index.js -e js --delay 30",
+    "build": "tsc",
+    "start": "tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mimamch",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.1",
+    "@tsconfig/node16": "^16.1.3",
+    "@types/mime-types": "^2.1.4",
+    "@whiskeysockets/baileys": "^6.7.6",
+    "mime": "^3.0.0",
+    "pino": "^8.11.0",
+    "qrcode-terminal": "^0.12.0",
+    "tslib": "^2.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mimamch/wa-multi-session.git"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/mime": "^3.0.1",
+    "nodemon": "^3.1.4",
+    "rollup": "^4.21.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "bugs": {
+    "url": "https://github.com/mimamch/wa-multi-session/issues"
+  },
+  "homepage": "https://github.com/mimamch/wa-multi-session#readme",
+  "keywords": []
+}
